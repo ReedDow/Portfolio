@@ -39,14 +39,14 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    "I am a Full Stack Web Developer with a passion for learning new technologies and solving problems, with a particular interest in front-end development and UI. I have a B.S. and M.Ed. from the University of Utah. More recently I completed formal training at DevMountain's bootcamp for Web Development. I work hard and finish what I start."}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'I have extensive experience with working through complex problems and collaborating as a team in my previous career as a psychotherapist, and have found joy in applying that same meticulous thought process to creating beautiful websites.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree || 'My skills include React, Redux, HTML, CSS, Sass/SCSS, Semantic-UI, JavaScript, Python, Node.js, Express, PostgreSQL, SQLite, BASH, Powershell, Git, and REST API.'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
