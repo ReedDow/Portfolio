@@ -28,9 +28,9 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'StockAlert.png',
+    img: 'StockAlert-Dashboard.png',
     title: 'StockAlert',
-    info: 'React / Redux and Node.js website for viewing real-time stock quotes and news retrieved from the Finnhub API',
+    info: 'React / Redux and Node.js website for viewing real-time stock quotes, candle charts, and news retrieved from the Finnhub API',
     info2: 'Using Nodemailer the website  sends an email if the stock drops more than 5%. Search through all U.S. stocks and add to the Watchlist. Hashed password protection. Responsive Design.',
     url: 'http://161.35.225.92:4000/',
     repo: 'https://github.com/ReedDow/Stockalert', // if no repo, the button will not show up
@@ -43,15 +43,14 @@ export const projectsData = [
     url: 'http://www.jam-sessions.live/',
     repo: 'https://github.com/tinder-for-musicians/jam-sessions', // if no repo, the button will not show up
   },
-  // {
-  //   id: nanoid(),
-  //   img: '',
-  //   title: '',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  // },
+  {
+    id: nanoid(),
+    img: 'HealingPath.jpeg',
+    title: 'Healing Path Psychotherapy',
+    info: 'Wordpress and PHP website for a local business. Built and styled with Astra and Elementor.',
+    url: '',
+    repo: 'https://github.com/ReedDow/HealingPath', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
