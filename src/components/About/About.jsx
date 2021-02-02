@@ -46,7 +46,7 @@ const About = () => {
                     'I have extensive experience with working through complex problems and collaborating as a team in my previous career as a psychotherapist, and have found joy in applying that same meticulous thought process to creating beautiful websites.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'My skills include React, Redux, HTML, CSS, Sass/SCSS, Semantic-UI, JavaScript, Python, Node.js, Express, PostgreSQL, SQLite, BASH, Powershell, Git, and REST API.'}
+                  {paragraphThree || 'My skills include Javascript, Python, PHP, React, Redux, Node.js, Wordpress, HTML, CSS, Sass/SCSS, Semantic-UI, Express, PostgreSQL, SQLite, BASH, Powershell, Git, and REST API.'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
